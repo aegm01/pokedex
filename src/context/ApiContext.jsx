@@ -295,58 +295,58 @@ const ApiProvider = ({ children }) => {
   function findTypeAndPlaceSVG(value) {
     switch (value) {
       case "bug":
-        return <img src="/bug.svg" key={value} />;
+        return <img src="./bug.svg" key={value} />;
         break;
       case "dark":
-        return <img src="/dark.svg" key={value} />;
+        return <img src="./dark.svg" key={value} />;
         break;
       case "dragon":
-        return <img src="/dragon.svg" key={value} />;
+        return <img src="./dragon.svg" key={value} />;
         break;
       case "electric":
-        return <img src="/electric.svg" key={value} />;
+        return <img src="./electric.svg" key={value} />;
         break;
       case "fairy":
-        return <img src="/fairy.svg" key={value} />;
+        return <img src="./fairy.svg" key={value} />;
         break;
       case "fighting":
-        return <img src="/fighting.svg" key={value} />;
+        return <img src="./fighting.svg" key={value} />;
         break;
       case "fire":
-        return <img src="/fire.svg" key={value} />;
+        return <img src="./fire.svg" key={value} />;
         break;
       case "flying":
-        return <img src="/flying.svg" key={value} />;
+        return <img src="./flying.svg" key={value} />;
         break;
       case "ghost":
-        return <img src="/ghost.svg" key={value} />;
+        return <img src="./ghost.svg" key={value} />;
         break;
       case "grass":
-        return <img src="/grass.svg" key={value} />;
+        return <img src="./grass.svg" key={value} />;
         break;
       case "ground":
-        return <img src="/ground.svg" key={value} />;
+        return <img src="./ground.svg" key={value} />;
         break;
       case "ice":
-        return <img src="/ice.svg" key={value} />;
+        return <img src="./ice.svg" key={value} />;
         break;
       case "normal":
-        return <img src="/normal.svg" key={value} />;
+        return <img src="./normal.svg" key={value} />;
         break;
       case "poison":
-        return <img src="/poison.svg" key={value} />;
+        return <img src="./poison.svg" key={value} />;
         break;
       case "psychic":
-        return <img src="/psychic.svg" key={value} />;
+        return <img src="./psychic.svg" key={value} />;
         break;
       case "rock":
-        return <img src="/rock.svg" key={value} />;
+        return <img src="./rock.svg" key={value} />;
         break;
       case "steel":
-        return <img src="/steel.svg" key={value} />;
+        return <img src="./steel.svg" key={value} />;
         break;
       case "water":
-        return <img src="/water.svg" key={value} />;
+        return <img src="./water.svg" key={value} />;
         break;
 
       default:

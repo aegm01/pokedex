@@ -12,12 +12,11 @@ const Home = () => {
 
   useEffect(() => {
     reset(selectedPage * 24);
-    if (JSON.parse(storage.getItem("language")) === true) {
+    if (!JSON.parse(storage.getItem("language"))) {
       setLanguageInBoolean(false);
       storage.setItem("language", JSON.stringify(false));
     } else {
       setLanguageInBoolean(true);
-      storage.setItem("language", JSON.stringify(true));
     }
   }, []);
 

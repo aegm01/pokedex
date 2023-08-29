@@ -194,18 +194,18 @@ const PokemonDescription = () => {
       <div className={`descriptionContainer ${pokemonInView.color}`}>
         <div className="headerDescription">
           <NavLink to={`/`}>
-            <img src="/arrow-left.svg" alt="BackHome" />
+            <img src="./arrow-left.svg" alt="BackHome" />
           </NavLink>
           <h1>{pokemonInView.name}</h1>
           <h3>{`#${String(pokemonInView.id).padStart(3, 0)}`}</h3>
         </div>
         <div className="imgAndArrowsContainer">
           <NavLink onClick={opacity ? "" : handlePrevPokemon} to={`/pokemondescription/${idNumber - 1}`}>
-            <img src="/chevron-left.svg" className={`arrow ${opacity ? "opacity" : ""}`} alt="Back" />
+            <img src="./chevron-left.svg" className={`arrow ${opacity ? "opacity" : ""}`} alt="Back" />
           </NavLink>
           <img src={pokemonInView.img} className="imgPokemon" alt="Pokemon" />
           <NavLink onClick={opacity ? "" : handleNextPokemon} to={`/pokemondescription/${idNumber + 1}`}>
-            <img src="/chevron-right.svg" className={`arrow ${opacity ? "opacity" : ""}`} alt="Forward" />
+            <img src="./chevron-right.svg" className={`arrow ${opacity ? "opacity" : ""}`} alt="Forward" />
           </NavLink>
         </div>
         <div className="typeAndAboutContainer">
@@ -216,14 +216,14 @@ const PokemonDescription = () => {
           <div className="weightHeightAndAbilitiesContainer">
             <div className="weight">
               <div>
-                <img src="/scale.svg" alt="Scale" />
+                <img src="./scale.svg" alt="Scale" />
                 {`${pokemonInView.weight} kg`}
                 <h4>{`${languageInBoolean ? "Peso" : "Weight"} `}</h4>
               </div>
             </div>
             <div className="height">
               <div>
-                <img src="/ruler.svg" alt="Ruler" />
+                <img src="./ruler.svg" alt="Ruler" />
                 {`${pokemonInView.height} m`}
                 <h4>{`${languageInBoolean ? "Altura" : "Height"} `}</h4>
               </div>
@@ -240,7 +240,7 @@ const PokemonDescription = () => {
                       }}
                     >
                       <h2>{pokemonAbilities[key].name_es}</h2>
-                      <img src="/help.svg" className="help" alt="help" />
+                      <img src="./help.svg" className="help" alt="help" />
                     </div>
                   ))}
                   <h4>Movimientos</h4>
@@ -256,7 +256,7 @@ const PokemonDescription = () => {
                       }}
                     >
                       <h2>{pokemonAbilities[key].name_en}</h2>
-                      <img src="/help.svg" className="help" alt="help" />
+                      <img src="./help.svg" className="help" alt="help" />
                     </div>
                   ))}
                   <h4>Moves</h4>
@@ -453,7 +453,7 @@ const PokemonDescription = () => {
 
               {evolutionChainNames?.second && (
                 <>
-                  <img src="/chevron-right.svg" className="arrow" alt="Forward" />
+                  <img src="./chevron-right.svg" className="arrow" alt="Forward" />
                   <NavLink
                     onClick={() => {
                       handlePokemonInView(evolutionChainNames?.second?.id, true);
@@ -475,7 +475,7 @@ const PokemonDescription = () => {
 
               {evolutionChainNames?.third && (
                 <>
-                  <img src="/chevron-right.svg" className="arrow" alt="Forward" />
+                  <img src="./chevron-right.svg" className="arrow" alt="Forward" />
 
                   <NavLink
                     onClick={() => {

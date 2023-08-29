@@ -46,7 +46,7 @@ const Pagination = () => {
           onClick={() => {
             pageSelectorHandler(1);
           }}
-          src="/arrow-double-start.svg"
+          src="./arrow-double-start.svg"
           alt="Arrow-Double-Start"
         />
 
@@ -67,7 +67,7 @@ const Pagination = () => {
           onClick={() => {
             pageSelectorHandler(43);
           }}
-          src="/arrow-double-end.svg"
+          src="./arrow-double-end.svg"
           alt="Arrow-Double-End"
         />
       </ul>
