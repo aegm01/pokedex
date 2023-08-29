@@ -1,0 +1,12 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: calc(14vh - 56px);
+  max-height: 50px;
+  width: 100%;
+  background-color: var(--first-color);
+  /* position: sticky; */
+  top: 0;
+  z-index: 9999;
+}

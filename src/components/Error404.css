@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.error404 img {
+  display: block;
+  width: 150px;
+  max-width: 175px;
+  margin: 0 auto;
+  padding-top: 15vh;
+}
+
+.error404 {
+  text-align: center;
+  height: 88vh;
+}
+
+.error404 h1 {
+  margin-top: 10px;
+}

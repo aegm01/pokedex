@@ -1,0 +1,132 @@
+.containerPokemonCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid var(--second-color);
+  padding: 5%;
+  height: 150px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px 20px 20px 20px;
+  margin: 3px;
+}
+
+.containerPokemonCard img {
+  width: 75%;
+  height: 75%;
+  margin: 2px;
+}
+
+.containerPokemonCard span {
+  display: block;
+  height: 24px;
+  width: fit-content;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.containerPokemonCard span:first-child {
+  font-size: 18px;
+  margin-left: 2px;
+}
+
+.containerPokemonCard .imgPokemon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 12.5px auto;
+}
+
+.containerPokemonCard .containerImg {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.containerPokemonCard div {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerPokemonCard .idAndName {
+  width: 72%;
+}
+
+.containerType img {
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  background: rgba(255, 255, 255);
+}
+
+/* 768 1024 1600 */
+
+@media screen and (min-width: 768px) {
+  .containerPokemonCard {
+    height: 300px;
+  }
+
+  .containerPokemonCard .containerImg {
+    width: 175px;
+    height: 175px;
+  }
+
+  .containerType img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+  }
+
+  .containerPokemonCard span {
+    font-size: 18px;
+  }
+
+  .containerPokemonCard span:first-child {
+    font-size: 24px;
+  }
+}
+
+.blue {
+  background: #00bfff9b;
+}
+
+.black {
+  background: #00000090;
+}
+
+.gray {
+  background: #a9a9a99d;
+}
+
+.pink {
+  background: #ff69b49d;
+}
+
+.purple {
+  background: #892be29d;
+}
+
+.white {
+  background: #fbfbfb;
+}
+
+.red {
+  background: #dc143c9d;
+}
+
+.yellow {
+  background: #f0e68c9d;
+}
+
+.green {
+  background: #7fffd49d;
+}
+
+.brown {
+  background: #8b45139d;
+}
+
+.default-color {
+  background: #cfcfcf;
+}

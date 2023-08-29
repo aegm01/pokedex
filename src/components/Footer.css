@@ -1,0 +1,18 @@
+/* Fotter */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: fit-content;
+  max-height: 6vh;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: var(--first-color);
+}
+
+.footer small {
+  margin-left: 5px;
+  margin-right: 5px;
+}

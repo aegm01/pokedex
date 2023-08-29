@@ -1,0 +1,21 @@
+html {
+  background-color: var(--first-color);
+}
+
+.homeContainer {
+  width: 98vw;
+  background: var(--second-color);
+  margin: 0 auto;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.pokemonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1% 1%;
+}
+
+/* 768 1024 1600 */
+
+@media screen and (min-width: 768px) {
+}
