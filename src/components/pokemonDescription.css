@@ -17,6 +17,7 @@
   top: 2vh;
   left: 5vw;
   width: 90vw;
+  z-index: 999;
 }
 
 .headerDescription img {
@@ -52,6 +53,8 @@
   width: 45vw;
   height: 45vw;
   margin: 0 calc(17.5vw - 20px);
+  max-width: 450px;
+  max-height: 450px;
 }
 
 .imgAndArrowsContainer .arrow {
@@ -411,9 +414,9 @@
   }
 
   .imgAndArrowsContainer .imgPokemon {
-    width: 30vw;
-    height: 35vh;
-    margin: 0 calc(15vw - 20px);
+    width: 25vw;
+    height: fit-content;
+    margin: 0 calc(17.5vw - 20px);
   }
 
   /* typeAndAboutContainer */
@@ -473,9 +476,13 @@
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
   .descriptionContainer {
     height: 1550px;
+  }
+  /* imgAndArrowsContainer */
+  .imgAndArrowsContainer {
+    top: 3%;
   }
 
   /* typeAndAboutContainer */
@@ -500,6 +507,11 @@
   }
 }
 
+@media screen and (min-width: 1800px) {
+  /* imgAndArrowsContainer */
+  .imgAndArrowsContainer .imgPokemon {
+  }
+}
 /* 
 
 */
